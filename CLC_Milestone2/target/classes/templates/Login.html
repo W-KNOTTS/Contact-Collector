@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Log in</title>
+
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+	body
+	{
+		background-color: rgb(200,200,200);
+	}
+</style>
+</head>
+<body>
+
+<div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
+<div class="card" style="width: 25rem;">
+<div class="shadow p-3 bg-white rounded">
+<form action="#" method="post" th:action="@{processLogin}" th:object="${loginModel}">
+  <div class="mb-3">
+    <label for="username" class="form-label">Username</label>
+    <input th:field="*{username}" type="text" class="form-control" id="username" aria-describedby="usernamehelp">
+  </div>
+  <div class="mb-3">
+    <label for="password" class="form-label">Password</label>
+    <input th:field="*{password}" type="password" class="form-control" id="passowrd" >
+  </div>
+  	<button type="submit" class="btn btn-primary float-end">Login</button>
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>
