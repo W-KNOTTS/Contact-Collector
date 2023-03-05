@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="layouts/defaultLayout">
 <head>
 <meta charset="UTF-8">
 <title>Log in</title>
@@ -13,7 +13,10 @@
 	}
 </style>
 </head>
+
 <body>
+
+<div layout:fragment="content">
 
 <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
 <div class="card" style="width: 25rem;">
@@ -34,6 +37,7 @@
   </div>
   	<button type="submit" class="btn btn-primary float-end">Login</button>
 </form>
+</div>
 </div>
 </div>
 </div>
