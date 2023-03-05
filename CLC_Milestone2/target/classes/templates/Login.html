@@ -1,45 +1,38 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="layouts/defaultLayout">
-<head>
-<meta charset="UTF-8">
-<title>Log in</title>
-
-<link href="/css/bootstrap.min.css" rel="stylesheet">
-
-<style>
-	body
-	{
-		background-color: rgb(200,200,200);
-	}
-</style>
-</head>
-
-<body>
-
-<div layout:fragment="content">
-
-<div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
-<div class="card" style="width: 25rem;">
-<div class="shadow p-3 bg-white rounded">
-<form action="#" method="post" th:action="@{processLogin}" th:object="${loginModel}">
-  <div class="mb-3">
-    <label for="username" class="form-label">Username</label>
-    <input th:field="*{username}" type="text" class="form-control" id="username" aria-describedby="usernamehelp">
-    
-    <p class="alert alert-danger" th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Username error</p>
-  </div>
-  <div class="mb-3">
-    <label for="password" class="form-label">Password</label>
-    <input th:field="*{password}" type="password" class="form-control" id="passowrd" >
-    
-  <p class="alert alert-danger" th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Password error</p>
-  
-  </div>
-  	<button type="submit" class="btn btn-primary float-end">Login</button>
-</form>
-</div>
-</div>
-</div>
-</div>
-</body>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layouts/defaultTemplate}">
+	<head>
+		<meta charset="UTF-8">
+		<title>Log in</title>
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<style>
+			body
+			{
+			background-color: rgb(200,200,200);
+			}
+		</style>
+	</head>
+	<body>
+		<div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
+			<img th:src="@{/images/banner2.png}"/><br/><br/>
+			<div class="card" style="width: 25rem;">
+				<div class="shadow p-3 bg-white rounded">
+					<form action="#" method="post" th:action="@{processLogin}" th:object="${loginModel}" >
+  						<div class="mb-3">
+    						<label for="username" class="form-label">Username</label>
+    						<input th:field="*{username}" type="text" class="form-control" id="username" aria-describedby="usernamehelp">
+  						</div>
+  						<div class="mb-3">
+    						<label for="password" class="form-label">Password</label>
+    						<input th:field="*{password}" type="password" class="form-control" id="passowrd" >
+  						</div>
+  						<button type="submit" class="btn btn-primary float-end">Login</button>
+					</form>
+					<form action="#" method="post" th:action="@{processReg}" th:object="${regModel}" >
+					
+					  	<button onclick="document.location='UserReg.html'">Register</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>
