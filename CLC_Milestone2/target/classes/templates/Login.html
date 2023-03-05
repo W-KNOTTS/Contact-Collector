@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta charset="UTF-8">
 <title>Log in</title>
@@ -22,10 +22,15 @@
   <div class="mb-3">
     <label for="username" class="form-label">Username</label>
     <input th:field="*{username}" type="text" class="form-control" id="username" aria-describedby="usernamehelp">
+    
+    <p class="alert alert-danger" th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Username error</p>
   </div>
   <div class="mb-3">
     <label for="password" class="form-label">Password</label>
     <input th:field="*{password}" type="password" class="form-control" id="passowrd" >
+    
+  <p class="alert alert-danger" th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Password error</p>
+  
   </div>
   	<button type="submit" class="btn btn-primary float-end">Login</button>
 </form>
