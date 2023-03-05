@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layouts/defaultTemplate}">
+	<head>
+		<meta charset="UTF-8">
+		<title>Registration</title>
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<style>
+			body
+			{
+				background-color: rgb(200,200,200);
+			}
+		</style>
+	</head>
+	<body>
+	
+		<div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
+			<img th:src="@{/images/banner2.png}"/><br/><br/>
+			<div class="card" style="width: 25rem;">
+				<div class="shadow p-3 bg-white rounded">
+					<form action="#" method="post" th:action="@{processLogin}" th:object="${regModel}" >
+					  <div class="mb-3">
+					    <label for="username" class="form-label">Username</label>
+					    <input th:field="*{username}" type="text" class="form-control" id="username" aria-describedby="usernamehelp">
+					  </div>
+					  <div class="mb-3">
+					    <label for="password" class="form-label">Password</label>
+					    <input th:field="*{password}" type="password" class="form-control" id="passowrd" >
+					  </div>
+					  <div class="mb-3">
+					    <label for="password" class="form-label">Confirm Password</label>
+					    <input th:field="*{password}" type="password" class="form-control" id="password">
+					  </div>
+					  <div class="mb-3">
+					    <label for="firstN" class="form-label">First Name</label>
+					    <input th:field="*{firstN}" type="text" class="form-control" id="firstN" >
+					  </div>
+					  <div class="mb-3">
+					    <label for="lastN" class="form-label">Last Name</label>
+					    <input th:field="*{lastN}" type="text" class="form-control" id="lastN">
+					  </div>
+					  <div class="mb-3">
+					    <label for="phone" class="form-label">Phone Number</label>
+					    <input th:field="*{phone}" type="text" class="form-control" id="phone" >
+					  </div>
+					  <div class="mb-3">
+					    <label for="username" class="form-label">Email</label>
+					    <input th:field="*{email}" type="text" class="form-control" id="username">
+					  </div>
+					  <div class="mb-3">
+					    <label for="address" class="form-label">Address</label>
+					    <input th:field="*{address}" type="text" class="form-control" id="address" >
+					  </div>
+					  	<button type="submit" class="btn btn-primary float-end">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

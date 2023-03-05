@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layouts/defaultTemplate}">
+	<head>
+		<meta charset="UTF-8">
+		<title>Users</title>
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<style>
+			body
+			{
+				background-color: rgb(200,200,200);
+			}
+		</style>	
+	</head>
+	<body>
+	
+		<div layout:fragment="content">
+			<div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
+			<img th:src="@{/images/banner2.png}"/><br/><br/>
+			<h2>Contact List</h2><br/>
+				<div class="card" style="width: 100rem;">
+					<div class="shadow p-3 bg-white rounded">
+						<table style="width:50%">
+							<thead>
+								<tr>
+									<th style="text-align:center">ID</th>
+									<th style="text-align:center">First Name</th>
+									<th style="text-align:center">Last Name</th>
+									<th style="text-align:center">Phone Number</th>
+									<th style="text-align:center">Email</th>
+									<th style="text-align:center">Address</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr th:if="${user.empty}">
+									<td style="text-align:center" colspan="5">No Contacts Available</td>
+								</tr>
+								<tr th:each="user : ${user}">
+									<td style="text-align:center"><h5 th:text="${user.id}">0L</h5></td>
+									<td style="text-align:center"><h5 th:text="${user.firstN}">First Name</h5></td>
+									<td style="text-align:center"><h5 th:text="${user.lastN}">Last Name</h5></td>
+									<td style="text-align:center"><h5 th:text="${user.phone}">Phone Number</h5></td>
+									<td style="text-align:center"><h5 th:text="${user.email}">Email</h5></td>
+									<td style="text-align:center"><h5 th:text="${user.address}">Address</h5></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
