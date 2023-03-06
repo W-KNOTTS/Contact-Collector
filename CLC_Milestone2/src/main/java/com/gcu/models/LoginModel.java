@@ -1,16 +1,16 @@
 package com.gcu.models;
 
-//import jakarta.validation.constraints.NotNull;
-//import jakarta.validation.constraints.Size;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 
 public class LoginModel {
 
-	//@NotNull(message="User name is a required field")
-	//@Size(min=1, max=32, message="User namemust be between 1 and 32 characters")
+	@NotNull(message="User name is a required field")
+	@Size(min=1, max=32, message="User name must be between 1 and 32 characters")
 	private String username;
 	
-	//@NotNull(message="Password is a required field")
-	//@Size(min=1, max=32, message="User namemust be between 1 and 32 characters")
+	@NotNull(message="Password is a required field")
+	@Size(min=1, max=32, message="User name must be between 1 and 32 characters")
 	private String password;
 	
 	public String getUsername() 
