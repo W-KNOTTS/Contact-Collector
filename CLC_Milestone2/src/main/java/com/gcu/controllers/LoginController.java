@@ -33,7 +33,7 @@ public class LoginController {
 		return "login.html";
 	}
 	
-	@GetMapping("/2")
+	@GetMapping("/register")
 	public String displayReg(Model model1) 
 	{
 		
