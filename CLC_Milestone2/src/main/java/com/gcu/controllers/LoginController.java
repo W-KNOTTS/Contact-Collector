@@ -33,7 +33,7 @@ public class LoginController {
 		model.addAttribute("loginModel", new LoginModel());
 		return "login.html";
 	}
-	
+	/*
 	@GetMapping("/register")
 	public String displayReg(Model model1) 
 	{
@@ -41,7 +41,7 @@ public class LoginController {
 		model1.addAttribute("regModel", new RegModel());
 		return "UserReg.html";
 	}
-	
+	*/
 	@PostMapping("/processLogin")
 	public String processLogin(@Valid LoginModel loginModel, BindingResult bindingResult, Model model) 
 	{
@@ -72,7 +72,7 @@ public class LoginController {
 	@PostMapping("/processReg")
 	public String processReg(RegModel regModel, Model model1) 
 	{
-		return "UserReg";
+		return "redirect:/register/";
 	}
 	
 	
