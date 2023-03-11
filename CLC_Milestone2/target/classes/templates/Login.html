@@ -4,43 +4,36 @@
 		<meta charset="UTF-8">
 		<title>Log in</title>
 		<link href="/css/bootstrap.min.css" rel="stylesheet">
-		<style>
-			body
-			{
-			background-color: rgb(200,200,200);
-			}
-		</style>
 	</head>
 	<body>
 	<div layout:fragment="content">
 		<div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
 			<img th:src="@{/images/banner2.png}"/><br/><br/>
 			<div class="card" style="width: 25rem;">
-				<div class="shadow p-3 bg-white rounded">
+				<div class="shadow p-3 bg-dark rounded text-white">
 					<form action="#" method="post" th:action="@{processLogin}" th:object="${loginModel}">
-  						<table>					
+  						<table style="margin: 10px;">					
 						<tr>
 							<td>User Name:</td>
 							<td><input type="text" th:field="*{username}"></td>
-							<td><h5 style="color:red" th:if="${#fields.hasErrors('username')}" th:errors="*{username}">User Name Error</h5></td>
 						</tr>						
 						<tr>
 							<td>Password:</td>
-							<td><input type="text" th:field="*{password}"></td>
-							<td><h5 style="color:red" th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Password Error</h5></td>
-						</tr>						
-						<tr>
-							<td colspan="3"><input type="submit" value="Submit" /></td>
-						</tr>						
-					</table>				
+							<td><input type="password" th:field="*{password}"></td>
+						</tr>			
+					</table>	
+				<div class="d-flex justify-content-end"><button type="submit" class="btn btn-success ml-auto btn-block" style="padding :5px 22px; margin: 2px; margin-right:40px">Login</button></div>
 				<div th:if="${#fields.hasErrors('*')}">List of Errors</div>
 				<div th:each="err : ${#fields.errors('*')}">
 					<span style="color:red" th:text="${err}" class="fieldError"></span>
 				</div>
+				<div><h5 th:if="${errorMessage}" class="alert alert-danger" role="alert"><span th:text="${errorMessage}"></span></h5></div>
 					</form>
-					<form action="#" method="post" th:action="@{processReg}" th:object="${regModel}" >
-					  	<button onclick="document.location='UserReg.html'">Register</button>
-					</form>
+					<div class="d-flex justify-content-end">
+						<form action="#" method="post" th:action="@{processReg}" th:object="${regModel}">
+						  	<button class="btn btn-primary btn-block" style="margin: 2px; margin-right:40px" onclick="document.location='UserReg.html'">Register</button>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
