@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layouts/defaultTemplate}">
+	<head>
+		<meta charset="UTF-8">
+		<title>Index</title>
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+	<div layout:fragment="content">
+		<div class="d-flex flex-column min-vh-100 justify-content-center align-items-center">
+				<img src="https://www.gcu.edu/themes/custom/gcu/media/images/header/gcu.svg"/><br/><br/>
+				<div class="card" style="width: 25rem;">
+					<div class="shadow p-3 bg-dark rounded text-white">
+						<h2>Contact Collector</h2><br/>
+						<p>Welcome to Contact Collector. Please log in to view your contacts.</p>
+						<button class="btn btn-primary" onclick="document.location='/login/'">Enter</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
