@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_SODvILu8Ee2UO5jW2cFMCA">
+  <modelElement href="CLC_Milestone.uml#_S6fXULu8Ee2UO5jW2cFMCA"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TKY0gLu8Ee2UO5jW2cFMCA" name="LoginController">
+    <modelElement href="CLC_Milestone.uml#_S7Z9Ubu8Ee2UO5jW2cFMCA"/>
+    <visualProperties xmi:id="_TKY0gbu8Ee2UO5jW2cFMCA" position="11.0,1038.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_TKY0gru8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+      <modelElement href="CLC_Milestone.uml#_S7bLcLu8Ee2UO5jW2cFMCA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_TKY0g7u8Ee2UO5jW2cFMCA" name="Annotations">
+      <modelElement href="CLC_Milestone.uml#_S7dnsLu8Ee2UO5jW2cFMCA"/>
+    </stereotypes>
+    <visibility xmi:id="_TKY0hLu8Ee2UO5jW2cFMCA" label="+"/>
+    <operations xmi:id="_TKY0hbu8Ee2UO5jW2cFMCA" name="displayLogin">
+      <modelElement href="CLC_Milestone.uml#_TCQMMLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg50YLu8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TKY0hru8Ee2UO5jW2cFMCA" name="Annotations">
+        <modelElement href="CLC_Milestone.uml#_TCSBYLu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TKY0h7u8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TKY0iLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TKY0ibu8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_TCRaULu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TKY0iru8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TKY0i7u8Ee2UO5jW2cFMCA" name="model">
+        <modelElement href="CLC_Milestone.uml#_TCQMMbu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TKY0jLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TKY0jbu8Ee2UO5jW2cFMCA" name="Model">
+          <modelElement href="CLC_Milestone.uml#_TB3KoLu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TKY0jru8Ee2UO5jW2cFMCA" name="displayReg">
+      <modelElement href="CLC_Milestone.uml#_TCSocbu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg50Ybu8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TKY0j7u8Ee2UO5jW2cFMCA" name="Annotations">
+        <modelElement href="CLC_Milestone.uml#_TCZ9MLu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TKY0kLu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TKY0kbu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TKY0kru8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_TCTPgLu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TKY0k7u8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TKY0lLu8Ee2UO5jW2cFMCA" name="model1">
+        <modelElement href="CLC_Milestone.uml#_TCSocru8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TKY0lbu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TKY0lru8Ee2UO5jW2cFMCA" name="Model">
+          <modelElement href="CLC_Milestone.uml#_TB3KoLu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TKY0l7u8Ee2UO5jW2cFMCA" name="processLogin">
+      <modelElement href="CLC_Milestone.uml#_TCakQLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg50Yru8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TKY0mLu8Ee2UO5jW2cFMCA" name="Annotations">
+        <modelElement href="CLC_Milestone.uml#_TCbyYLu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TKY0mbu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TKY0mru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TKY0m7u8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_TCbLUbu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TKY0nLu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TKY0nbu8Ee2UO5jW2cFMCA" name="loginModel">
+        <modelElement href="CLC_Milestone.uml#_TCakQbu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TKY0nru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TKY0n7u8Ee2UO5jW2cFMCA" name="LoginModel">
+          <modelElement href="CLC_Milestone.uml#_S7yX0Lu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TKY0oLu8Ee2UO5jW2cFMCA" name="bindingResult">
+        <modelElement href="CLC_Milestone.uml#_TCakQru8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TKY0obu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TKY0oru8Ee2UO5jW2cFMCA" name="BindingResult">
+          <modelElement href="CLC_Milestone.uml#_TB3xsbu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TKY0o7u8Ee2UO5jW2cFMCA" name="model">
+        <modelElement href="CLC_Milestone.uml#_TCbLULu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TKY0pLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TKY0pbu8Ee2UO5jW2cFMCA" name="Model">
+          <modelElement href="CLC_Milestone.uml#_TB3KoLu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TKZbkLu8Ee2UO5jW2cFMCA" name="processReg">
+      <modelElement href="CLC_Milestone.uml#_TCcZcLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg50Y7u8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TKZbkbu8Ee2UO5jW2cFMCA" name="Annotations">
+        <modelElement href="CLC_Milestone.uml#_TCeOoLu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TKZbkru8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TKZbk7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TKZblLu8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_TCdAgbu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TKZblbu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TKZblru8Ee2UO5jW2cFMCA" name="regModel">
+        <modelElement href="CLC_Milestone.uml#_TCcZcbu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TKZbl7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TKZbmLu8Ee2UO5jW2cFMCA" name="RegModel">
+          <modelElement href="CLC_Milestone.uml#_S74ecLu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TKZbmbu8Ee2UO5jW2cFMCA" name="bindingResult">
+        <modelElement href="CLC_Milestone.uml#_TCcZcru8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TKZbmru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TKZbm7u8Ee2UO5jW2cFMCA" name="BindingResult">
+          <modelElement href="CLC_Milestone.uml#_TB3xsbu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TKZbnLu8Ee2UO5jW2cFMCA" name="model1">
+        <modelElement href="CLC_Milestone.uml#_TCdAgLu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TKZbnbu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TKZbnru8Ee2UO5jW2cFMCA" name="Model">
+          <modelElement href="CLC_Milestone.uml#_TB3KoLu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TLExALu8Ee2UO5jW2cFMCA" name="RegModel">
+    <modelElement href="CLC_Milestone.uml#_S74ecLu8Ee2UO5jW2cFMCA"/>
+    <visualProperties xmi:id="_TLExAbu8Ee2UO5jW2cFMCA" position="16.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_TLExAru8Ee2UO5jW2cFMCA" label="+"/>
+    <attributes xmi:id="_TLExA7u8Ee2UO5jW2cFMCA" name="username">
+      <modelElement href="CLC_Milestone.uml#_TCutUbu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7plbu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TLExBLu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYELu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <type xmi:id="_TLFYEbu8Ee2UO5jW2cFMCA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TLFYEru8Ee2UO5jW2cFMCA" name="password">
+      <modelElement href="CLC_Milestone.uml#_TCutUru8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7plru8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TLFYE7u8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYFLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <type xmi:id="_TLFYFbu8Ee2UO5jW2cFMCA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TLFYFru8Ee2UO5jW2cFMCA" name="id">
+      <modelElement href="CLC_Milestone.uml#_TCvUYLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7pl7u8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TLFYF7u8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+        <modelElement href="CLC_Milestone.uml#_TCvUYbu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TLFYGLu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYGbu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <type xmi:id="_TLFYGru8Ee2UO5jW2cFMCA" name="Long">
+        <modelElement href="CLC_Milestone.uml#_TCgD0Lu8Ee2UO5jW2cFMCA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TLFYG7u8Ee2UO5jW2cFMCA" name="firstN">
+      <modelElement href="CLC_Milestone.uml#_TCv7cLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7pmLu8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TLFYHLu8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+        <modelElement href="CLC_Milestone.uml#_TCv7cbu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TLFYHbu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYHru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <type xmi:id="_TLFYH7u8Ee2UO5jW2cFMCA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TLFYILu8Ee2UO5jW2cFMCA" name="lastN">
+      <modelElement href="CLC_Milestone.uml#_TCv7cru8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7pmbu8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TLFYIbu8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+        <modelElement href="CLC_Milestone.uml#_TCwigLu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TLFYIru8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYI7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <type xmi:id="_TLFYJLu8Ee2UO5jW2cFMCA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TLFYJbu8Ee2UO5jW2cFMCA" name="phone">
+      <modelElement href="CLC_Milestone.uml#_TCxJkLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg8QoLu8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TLFYJru8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+        <modelElement href="CLC_Milestone.uml#_TCyXsLu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TLFYJ7u8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYKLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <type xmi:id="_TLFYKbu8Ee2UO5jW2cFMCA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TLFYKru8Ee2UO5jW2cFMCA" name="email">
+      <modelElement href="CLC_Milestone.uml#_TCyXsbu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg8Qobu8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TLFYK7u8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+        <modelElement href="CLC_Milestone.uml#_TCyXsru8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TLFYLLu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYLbu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <type xmi:id="_TLFYLru8Ee2UO5jW2cFMCA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TLFYL7u8Ee2UO5jW2cFMCA" name="address">
+      <modelElement href="CLC_Milestone.uml#_TCy-wLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg8Qoru8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TLFYMLu8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+        <modelElement href="CLC_Milestone.uml#_TCy-wbu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TLFYMbu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYMru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <type xmi:id="_TLFYM7u8Ee2UO5jW2cFMCA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_TLFYNLu8Ee2UO5jW2cFMCA" name="RegModel">
+      <modelElement href="CLC_Milestone.uml#_S77hwLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg8Qo7u8Ee2UO5jW2cFMCA"/>
+      <keywords xmi:id="_TLFYNbu8Ee2UO5jW2cFMCA" keyword="create"/>
+      <visibility xmi:id="_TLFYNru8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYN7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TLFYOLu8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_S78I0ru8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TLFYObu8Ee2UO5jW2cFMCA" name="RegModel">
+          <modelElement href="CLC_Milestone.uml#_S74ecLu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TLFYOru8Ee2UO5jW2cFMCA" name="toString">
+      <modelElement href="CLC_Milestone.uml#_S78I07u8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg8QpLu8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TLFYO7u8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+        <modelElement href="CLC_Milestone.uml#_S78v4bu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TLFYPLu8Ee2UO5jW2cFMCA" name="Annotations">
+        <modelElement href="CLC_Milestone.uml#_S79W8Lu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TLFYPbu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYPru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TLFYP7u8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_S78v4Lu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TLFYQLu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TLFYQbu8Ee2UO5jW2cFMCA" name="getid">
+      <modelElement href="CLC_Milestone.uml#_S79W8ru8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg8Qpbu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TLFYQru8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYQ7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TLFYRLu8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_TCk8ULu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TLFYRbu8Ee2UO5jW2cFMCA" name="Long">
+          <modelElement href="CLC_Milestone.uml#_TCgD0Lu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TLFYRru8Ee2UO5jW2cFMCA" name="getfirstN">
+      <modelElement href="CLC_Milestone.uml#_S79-ALu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg8Qpru8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TLFYR7u8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYSLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TLFYSbu8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_S7-lELu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TLFYSru8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TLFYS7u8Ee2UO5jW2cFMCA" name="setfirstN">
+      <modelElement href="CLC_Milestone.uml#_S7-lEbu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg8Qp7u8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TLFYTLu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYTbu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TLFYTru8Ee2UO5jW2cFMCA" name="firstN">
+        <modelElement href="CLC_Milestone.uml#_S7_MILu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TLFYT7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TLFYULu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TLFYUbu8Ee2UO5jW2cFMCA" name="getlastN">
+      <modelElement href="CLC_Milestone.uml#_S7_MIbu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg8QqLu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TLFYUru8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYU7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TLFYVLu8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_S7_MIru8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TLFYVbu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TLFYVru8Ee2UO5jW2cFMCA" name="setlastN">
+      <modelElement href="CLC_Milestone.uml#_S7_zMLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg8Qqbu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TLFYV7u8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYWLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TLFYWbu8Ee2UO5jW2cFMCA" name="lastN">
+        <modelElement href="CLC_Milestone.uml#_S7_zMbu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TLFYWru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TLFYW7u8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TLFYXLu8Ee2UO5jW2cFMCA" name="getphone">
+      <modelElement href="CLC_Milestone.uml#_S8AaQLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg83sLu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TLFYXbu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYXru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TLFYX7u8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_S8AaQbu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TLFYYLu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TLFYYbu8Ee2UO5jW2cFMCA" name="setphone">
+      <modelElement href="CLC_Milestone.uml#_S8AaQru8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg83sbu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TLFYYru8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYY7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TLFYZLu8Ee2UO5jW2cFMCA" name="phone">
+        <modelElement href="CLC_Milestone.uml#_S8AaQ7u8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TLFYZbu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TLFYZru8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TLFYZ7u8Ee2UO5jW2cFMCA" name="getemail">
+      <modelElement href="CLC_Milestone.uml#_S8BBULu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg83sru8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TLFYaLu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYabu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TLFYaru8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_S8BBUbu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TLFYa7u8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TLFYbLu8Ee2UO5jW2cFMCA" name="setemail">
+      <modelElement href="CLC_Milestone.uml#_S8BoYLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg83s7u8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TLFYbbu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYbru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TLFYb7u8Ee2UO5jW2cFMCA" name="email">
+        <modelElement href="CLC_Milestone.uml#_S8BoYbu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TLFYcLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TLFYcbu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TLFYcru8Ee2UO5jW2cFMCA" name="getaddress">
+      <modelElement href="CLC_Milestone.uml#_S8BoYru8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg83tLu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TLFYc7u8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYdLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TLFYdbu8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_S8BoY7u8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TLFYdru8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TLFYd7u8Ee2UO5jW2cFMCA" name="setaddress">
+      <modelElement href="CLC_Milestone.uml#_S8CPcLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg83tbu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TLFYeLu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYebu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TLFYeru8Ee2UO5jW2cFMCA" name="address">
+        <modelElement href="CLC_Milestone.uml#_S8CPcbu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TLFYe7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TLFYfLu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TLFYfbu8Ee2UO5jW2cFMCA" name="RegModel">
+      <modelElement href="CLC_Milestone.uml#_TCjuMLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg83tru8Ee2UO5jW2cFMCA"/>
+      <keywords xmi:id="_TLFYfru8Ee2UO5jW2cFMCA" keyword="create"/>
+      <visibility xmi:id="_TLFYf7u8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYgLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TLFYgbu8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_TCkVQ7u8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TLFYgru8Ee2UO5jW2cFMCA" name="RegModel">
+          <modelElement href="CLC_Milestone.uml#_S74ecLu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TLFYg7u8Ee2UO5jW2cFMCA" name="username">
+        <modelElement href="CLC_Milestone.uml#_TCjuMbu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TLFYhLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TLFYhbu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TLFYhru8Ee2UO5jW2cFMCA" name="password">
+        <modelElement href="CLC_Milestone.uml#_TCjuMru8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TLFYh7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TLFYiLu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TLFYibu8Ee2UO5jW2cFMCA" name="id">
+        <modelElement href="CLC_Milestone.uml#_TCjuM7u8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TLFYiru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TLFYi7u8Ee2UO5jW2cFMCA" name="Long">
+          <modelElement href="CLC_Milestone.uml#_TCgD0Lu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TLFYjLu8Ee2UO5jW2cFMCA" name="firstN">
+        <modelElement href="CLC_Milestone.uml#_TCjuNLu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TLFYjbu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TLFYjru8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TLFYj7u8Ee2UO5jW2cFMCA" name="lastN">
+        <modelElement href="CLC_Milestone.uml#_TCjuNbu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TLFYkLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TLFYkbu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TLFYkru8Ee2UO5jW2cFMCA" name="phone">
+        <modelElement href="CLC_Milestone.uml#_TCjuNru8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TLFYk7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TLFYlLu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TLFYlbu8Ee2UO5jW2cFMCA" name="email">
+        <modelElement href="CLC_Milestone.uml#_TCjuN7u8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TLFYlru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TLFYl7u8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TLFYmLu8Ee2UO5jW2cFMCA" name="address">
+        <modelElement href="CLC_Milestone.uml#_TCkVQLu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TLFYmbu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TLFYmru8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TLFYm7u8Ee2UO5jW2cFMCA" name="setid">
+      <modelElement href="CLC_Milestone.uml#_TCljYLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg83t7u8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TLFYnLu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TLFYnbu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TLFYnru8Ee2UO5jW2cFMCA" name="id">
+        <modelElement href="CLC_Milestone.uml#_TCljYbu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TLFYn7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TLFYoLu8Ee2UO5jW2cFMCA" name="Long">
+          <modelElement href="CLC_Milestone.uml#_TCgD0Lu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TLSMYLu8Ee2UO5jW2cFMCA" name="ClcMilestoneApplicationTests">
+    <modelElement href="CLC_Milestone.uml#_S8Gg4Lu8Ee2UO5jW2cFMCA"/>
+    <visualProperties xmi:id="_TLSMYbu8Ee2UO5jW2cFMCA" position="665.0,1041.0" size="220.0,70.0"/>
+    <stereotypes xmi:id="_TLSMYru8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+      <modelElement href="CLC_Milestone.uml#_S8HvALu8Ee2UO5jW2cFMCA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_TLSMY7u8Ee2UO5jW2cFMCA" name="Annotations">
+      <modelElement href="CLC_Milestone.uml#_S8I9ILu8Ee2UO5jW2cFMCA"/>
+    </stereotypes>
+    <visibility xmi:id="_TLSMZLu8Ee2UO5jW2cFMCA" label="~"/>
+    <operations xmi:id="_TLSMZbu8Ee2UO5jW2cFMCA" name="contextLoads">
+      <modelElement href="CLC_Milestone.uml#_S8HvAbu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg83uLu8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TLSMZru8Ee2UO5jW2cFMCA" name="Annotations">
+        <modelElement href="CLC_Milestone.uml#_S8IWELu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TLSMZ7u8Ee2UO5jW2cFMCA" label="~"/>
+      <cardinality xmi:id="_TLSMaLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TKlo0Lu8Ee2UO5jW2cFMCA" name="LoginModel">
+    <modelElement href="CLC_Milestone.uml#_S7yX0Lu8Ee2UO5jW2cFMCA"/>
+    <visualProperties xmi:id="_TKlo0bu8Ee2UO5jW2cFMCA" position="768.0,565.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_TKlo0ru8Ee2UO5jW2cFMCA" label="+"/>
+    <attributes xmi:id="_TKlo07u8Ee2UO5jW2cFMCA" name="username">
+      <modelElement href="CLC_Milestone.uml#_TCuGQLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg6bcLu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TKlo1Lu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TKlo1bu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <type xmi:id="_TKlo1ru8Ee2UO5jW2cFMCA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TKlo17u8Ee2UO5jW2cFMCA" name="password">
+      <modelElement href="CLC_Milestone.uml#_TCutULu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg6bcbu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TKlo2Lu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TKlo2bu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <type xmi:id="_TKlo2ru8Ee2UO5jW2cFMCA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_TKlo27u8Ee2UO5jW2cFMCA" name="LoginModel">
+      <modelElement href="CLC_Milestone.uml#_S70NALu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg6bcru8Ee2UO5jW2cFMCA"/>
+      <keywords xmi:id="_TKlo3Lu8Ee2UO5jW2cFMCA" keyword="create"/>
+      <visibility xmi:id="_TKlo3bu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TKlo3ru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TKlo37u8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_S700Ebu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TKlo4Lu8Ee2UO5jW2cFMCA" name="LoginModel">
+          <modelElement href="CLC_Milestone.uml#_S7yX0Lu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TKlo4bu8Ee2UO5jW2cFMCA" name="username">
+        <modelElement href="CLC_Milestone.uml#_S70NAbu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TKlo4ru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TKlo47u8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TKlo5Lu8Ee2UO5jW2cFMCA" name="password">
+        <modelElement href="CLC_Milestone.uml#_S70NAru8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TKlo5bu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TKlo5ru8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TKlo57u8Ee2UO5jW2cFMCA" name="LoginModel">
+      <modelElement href="CLC_Milestone.uml#_S700Eru8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg6bc7u8Ee2UO5jW2cFMCA"/>
+      <keywords xmi:id="_TKlo6Lu8Ee2UO5jW2cFMCA" keyword="create"/>
+      <visibility xmi:id="_TKlo6bu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TKlo6ru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TKlo67u8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_S71bIru8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TKlo7Lu8Ee2UO5jW2cFMCA" name="LoginModel">
+          <modelElement href="CLC_Milestone.uml#_S7yX0Lu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TKlo7bu8Ee2UO5jW2cFMCA" name="toString">
+      <modelElement href="CLC_Milestone.uml#_S71bI7u8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg6bdLu8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TKlo7ru8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+        <modelElement href="CLC_Milestone.uml#_S73QULu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_TKlo77u8Ee2UO5jW2cFMCA" name="Annotations">
+        <modelElement href="CLC_Milestone.uml#_S73QUbu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TKlo8Lu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TKlo8bu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TKlo8ru8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_S72CMLu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TKlo87u8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TJpNoLu8Ee2UO5jW2cFMCA" name="ClcMilestoneApplication">
+    <modelElement href="CLC_Milestone.uml#_S7NwELu8Ee2UO5jW2cFMCA"/>
+    <visualProperties xmi:id="_TJp0sLu8Ee2UO5jW2cFMCA" position="952.0,1040.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_TJp0sbu8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+      <modelElement href="CLC_Milestone.uml#_S7RacLu8Ee2UO5jW2cFMCA"/>
+    </stereotypes>
+    <stereotypes xmi:id="_TJp0sru8Ee2UO5jW2cFMCA" name="Annotations">
+      <modelElement href="CLC_Milestone.uml#_S7ZWQLu8Ee2UO5jW2cFMCA"/>
+    </stereotypes>
+    <visibility xmi:id="_TJp0s7u8Ee2UO5jW2cFMCA" label="+"/>
+    <operations xmi:id="_TJp0tLu8Ee2UO5jW2cFMCA" name="main" staticOperation="true">
+      <modelElement href="CLC_Milestone.uml#_S7UdwLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_jRLR4Lu8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TJp0tbu8Ee2UO5jW2cFMCA" name="StyledElement">
+        <modelElement href="CLC_Milestone.uml#_S7XhELu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TJp0tru8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TJp0t7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TJp0uLu8Ee2UO5jW2cFMCA" name="args">
+        <modelElement href="CLC_Milestone.uml#_S7Udwbu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TJp0ubu8Ee2UO5jW2cFMCA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_TJp0uru8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_TKzrQLu8Ee2UO5jW2cFMCA" name="ContactModel">
+    <modelElement href="CLC_Milestone.uml#_S7juULu8Ee2UO5jW2cFMCA"/>
+    <visualProperties xmi:id="_TK0SULu8Ee2UO5jW2cFMCA" position="17.0,562.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_TK0SUbu8Ee2UO5jW2cFMCA" label="+"/>
+    <attributes xmi:id="_TK0SUru8Ee2UO5jW2cFMCA" name="id">
+      <modelElement href="CLC_Milestone.uml#_TCpNwLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg6bdbu8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TK0SU7u8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+        <modelElement href="CLC_Milestone.uml#_TCqb4Lu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TK0SVLu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0SVbu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <type xmi:id="_TK0SVru8Ee2UO5jW2cFMCA" name="Long">
+        <modelElement href="CLC_Milestone.uml#_TCgD0Lu8Ee2UO5jW2cFMCA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TK0SV7u8Ee2UO5jW2cFMCA" name="firstN">
+      <modelElement href="CLC_Milestone.uml#_TCqb4bu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg6bdru8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TK0SWLu8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+        <modelElement href="CLC_Milestone.uml#_TCrC8Lu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TK0SWbu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0SWru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <type xmi:id="_TK0SW7u8Ee2UO5jW2cFMCA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TK0SXLu8Ee2UO5jW2cFMCA" name="lastN">
+      <modelElement href="CLC_Milestone.uml#_TCrC8bu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg6bd7u8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TK0SXbu8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+        <modelElement href="CLC_Milestone.uml#_TCrqALu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TK0SXru8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0SX7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <type xmi:id="_TK0SYLu8Ee2UO5jW2cFMCA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TK0SYbu8Ee2UO5jW2cFMCA" name="phone">
+      <modelElement href="CLC_Milestone.uml#_TCrqAbu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7CgLu8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TK0SYru8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+        <modelElement href="CLC_Milestone.uml#_TCs4ILu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TK0SY7u8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0SZLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <type xmi:id="_TK0SZbu8Ee2UO5jW2cFMCA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TK0SZru8Ee2UO5jW2cFMCA" name="email">
+      <modelElement href="CLC_Milestone.uml#_TCs4Ibu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7Cgbu8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TK0SZ7u8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+        <modelElement href="CLC_Milestone.uml#_TCs4Iru8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TK0SaLu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0Sabu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <type xmi:id="_TK0Saru8Ee2UO5jW2cFMCA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_TK0Sa7u8Ee2UO5jW2cFMCA" name="address">
+      <modelElement href="CLC_Milestone.uml#_TCs4I7u8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7Cgru8Ee2UO5jW2cFMCA"/>
+      <stereotypes xmi:id="_TK0SbLu8Ee2UO5jW2cFMCA" name="LegacyStyledElement">
+        <modelElement href="CLC_Milestone.uml#_TCtfMLu8Ee2UO5jW2cFMCA"/>
+      </stereotypes>
+      <visibility xmi:id="_TK0Sbbu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0Sbru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <type xmi:id="_TK0Sb7u8Ee2UO5jW2cFMCA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_TK0ScLu8Ee2UO5jW2cFMCA" name="ContactModel">
+      <modelElement href="CLC_Milestone.uml#_S7mKkLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7Cg7u8Ee2UO5jW2cFMCA"/>
+      <keywords xmi:id="_TK0Scbu8Ee2UO5jW2cFMCA" keyword="create"/>
+      <visibility xmi:id="_TK0Scru8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0Sc7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TK0SdLu8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_S7nYsru8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TK0Sdbu8Ee2UO5jW2cFMCA" name="ContactModel">
+          <modelElement href="CLC_Milestone.uml#_S7juULu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_TK0Sdru8Ee2UO5jW2cFMCA" name="id">
+        <modelElement href="CLC_Milestone.uml#_S7mKkbu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TK0Sd7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TK0SeLu8Ee2UO5jW2cFMCA" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TK0Sebu8Ee2UO5jW2cFMCA" name="firstN">
+        <modelElement href="CLC_Milestone.uml#_S7mxoLu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TK0Seru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TK0Se7u8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TK0SfLu8Ee2UO5jW2cFMCA" name="lastN">
+        <modelElement href="CLC_Milestone.uml#_S7mxobu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TK0Sfbu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TK0Sfru8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TK0Sf7u8Ee2UO5jW2cFMCA" name="phone">
+        <modelElement href="CLC_Milestone.uml#_S7mxoru8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TK0SgLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TK0Sgbu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TK0Sgru8Ee2UO5jW2cFMCA" name="email">
+        <modelElement href="CLC_Milestone.uml#_S7mxo7u8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TK0Sg7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TK0ShLu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_TK0Shbu8Ee2UO5jW2cFMCA" name="address">
+        <modelElement href="CLC_Milestone.uml#_S7mxpLu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TK0Shru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TK0Sh7u8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TK0SiLu8Ee2UO5jW2cFMCA" name="getid">
+      <modelElement href="CLC_Milestone.uml#_S7om0Lu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7ChLu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TK0Sibu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0Siru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TK0Si7u8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_TChR8Lu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TK0SjLu8Ee2UO5jW2cFMCA" name="Long">
+          <modelElement href="CLC_Milestone.uml#_TCgD0Lu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TK0Sjbu8Ee2UO5jW2cFMCA" name="getfirstN">
+      <modelElement href="CLC_Milestone.uml#_S7p08Lu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7Chbu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TK0Sjru8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0Sj7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TK0SkLu8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_S7p08bu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TK0Skbu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TK0Skru8Ee2UO5jW2cFMCA" name="setfirstN">
+      <modelElement href="CLC_Milestone.uml#_S7qcALu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7Chru8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TK0Sk7u8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0SlLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TK0Slbu8Ee2UO5jW2cFMCA" name="firstN">
+        <modelElement href="CLC_Milestone.uml#_S7rDELu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TK0Slru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TK0Sl7u8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TK0SmLu8Ee2UO5jW2cFMCA" name="getlastN">
+      <modelElement href="CLC_Milestone.uml#_S7rDEbu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7Ch7u8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TK0Smbu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0Smru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TK0Sm7u8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_S7rqILu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TK0SnLu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TK0Snbu8Ee2UO5jW2cFMCA" name="setlastN">
+      <modelElement href="CLC_Milestone.uml#_S7rqIbu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7CiLu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TK0Snru8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0Sn7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TK0SoLu8Ee2UO5jW2cFMCA" name="lastN">
+        <modelElement href="CLC_Milestone.uml#_S7sRMLu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TK0Sobu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TK0Soru8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TK0So7u8Ee2UO5jW2cFMCA" name="getphone">
+      <modelElement href="CLC_Milestone.uml#_S7sRMbu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7Cibu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TK0SpLu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0Spbu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TK0Spru8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_S7s4QLu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TK0Sp7u8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TK0SqLu8Ee2UO5jW2cFMCA" name="setphone">
+      <modelElement href="CLC_Milestone.uml#_S7s4Qbu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7Ciru8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TK0Sqbu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0Sqru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TK0Sq7u8Ee2UO5jW2cFMCA" name="phone">
+        <modelElement href="CLC_Milestone.uml#_S7s4Qru8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TK0SrLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TK0Srbu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TK0Srru8Ee2UO5jW2cFMCA" name="getemail">
+      <modelElement href="CLC_Milestone.uml#_S7tfULu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7pkLu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TK0Sr7u8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0SsLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TK0Ssbu8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_S7tfUbu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TK0Ssru8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TK0Ss7u8Ee2UO5jW2cFMCA" name="setemail">
+      <modelElement href="CLC_Milestone.uml#_S7uGYLu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7pkbu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TK0StLu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0Stbu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TK0Stru8Ee2UO5jW2cFMCA" name="email">
+        <modelElement href="CLC_Milestone.uml#_S7uGYbu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TK0St7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TK0SuLu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TK0Subu8Ee2UO5jW2cFMCA" name="getaddress">
+      <modelElement href="CLC_Milestone.uml#_S7uGYru8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7pkru8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TK0Suru8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0Su7u8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_TK0SvLu8Ee2UO5jW2cFMCA">
+        <modelElement href="CLC_Milestone.uml#_S7utcLu8Ee2UO5jW2cFMCA"/>
+        <type xmi:id="_TK0Svbu8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_TK0Svru8Ee2UO5jW2cFMCA" name="setaddress">
+      <modelElement href="CLC_Milestone.uml#_S7utcbu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7pk7u8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TK0Sv7u8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0SwLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TK0Swbu8Ee2UO5jW2cFMCA" name="address">
+        <modelElement href="CLC_Milestone.uml#_S7vUgLu8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TK0Swru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TK0Sw7u8Ee2UO5jW2cFMCA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_TK0SxLu8Ee2UO5jW2cFMCA" name="setid">
+      <modelElement href="CLC_Milestone.uml#_TChR8bu8Ee2UO5jW2cFMCA"/>
+      <visualProperties xmi:id="_kg7plLu8Ee2UO5jW2cFMCA"/>
+      <visibility xmi:id="_TK0Sxbu8Ee2UO5jW2cFMCA" label="+"/>
+      <cardinality xmi:id="_TK0Sxru8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_TK0Sx7u8Ee2UO5jW2cFMCA" name="id">
+        <modelElement href="CLC_Milestone.uml#_TChR8ru8Ee2UO5jW2cFMCA"/>
+        <cardinality xmi:id="_TK0SyLu8Ee2UO5jW2cFMCA" label="1" max="1" min="1"/>
+        <type xmi:id="_TK0Sybu8Ee2UO5jW2cFMCA" name="Long">
+          <modelElement href="CLC_Milestone.uml#_TCgD0Lu8Ee2UO5jW2cFMCA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
